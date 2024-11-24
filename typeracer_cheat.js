@@ -1,6 +1,6 @@
 /* ==== Typeracer Cheat ==== */
 
-var arrSpan = document.querySelectorAll('[unselectable="on"]');
+var arrSpan = document.querySelectorAll('div.unselectable');
 var fullSentence = '';
 arrSpan.forEach(function (item) {
   fullSentence += item.innerHTML;
